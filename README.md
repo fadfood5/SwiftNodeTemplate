@@ -25,6 +25,8 @@ This template uses the [Alamofire](https://github.com/Alamofire/Alamofire) frame
 The following is an example of a post function that receives a JSON object.
 
 ```
+let parameters: Parameters = ["username": "user123"]
+
 Alamofire.request("http://localhost:80/login", method: .post, parameters: parameters, encoding: JSONEncoding.default).responseJSON { response in
         let json = JSON(response.result)
         let responseData = json["login"].stringValue
