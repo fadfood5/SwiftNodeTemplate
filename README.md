@@ -18,12 +18,9 @@ cd SwiftNodeTemplate
 carthage update
 ```
 
-You are all set!
-
-
 ### Examples of HTTP calls
 
-This template uses the Alamofire framework for HTTP calls and SwiftyJSON to parse JSON objects.
+This template uses the [Alamofire](https://github.com/Alamofire/Alamofire) framework for HTTP calls and [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) to parse JSON objects.
 
 The following is an example of a post function that receives a JSON object.
 
